@@ -91,7 +91,7 @@ sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 #fitting and saving the model 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs=300, batch_size=10, verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs=300, batch_size=5, verbose=1)
 model.save('model.h5', hist)
 
 print("model created")

@@ -163,7 +163,7 @@
   /* Desktop Version*/
   @media (min-width: 992px){
     .navbar-brand, .nav-link {
-      color: white !important;
+      color: #ffbf0bff !important;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
       .nav-link{
