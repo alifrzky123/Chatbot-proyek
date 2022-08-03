@@ -4,6 +4,11 @@
      "responses": ["Maaf, saya tidak mengerti apa yang kamu maksud.", 
         "Maaf, untuk saat ini chatbot ini belum dapat menjawab pertanyaan kamu."]
     },
+    {"tag": "noanswer_posisi",
+        "patterns": ["ingin posisi"],
+        "responses": ["Maaf, untuk posisi tersebut saat ini tidak tersedia di perusahaan kami"],
+        "context": [""]
+    },
     {"tag": "qna_smuit",
         "patterns": ["smuit", "smuit, apa?"],
         "responses": ["SMUIT merupakan singkatan dari Smart Recruit. SMUIT diinisiasi oleh kelompok yang telah dibentuk dikelas guru yang diadakan PT.Orbit Ventura Indonesia. Langsung aja, silahkan perkenalan diri kamu. Siapa nama kamu?"]
