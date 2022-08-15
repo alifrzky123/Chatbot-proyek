@@ -103,7 +103,7 @@
     },
     {"tag": "pengalaman_belum_pernah",
         "patterns": ["Belum pernah"],
-        "responses": ["Baik, lalu apa yang kamu ketahi terkait data science?"]
+        "responses": ["Baik, lalu apa yang kamu ketahui terkait data science?"]
     },
     {"tag": "pengalaman4",
         "patterns": ["Pernah bekerja"],
@@ -459,31 +459,31 @@
     },
     {"tag": "penutup1",
         "patterns": ["disesuaikan"],
-        "responses": ["Baiklah, kami akan sesuaikan. Berikut merupakan link SOP dari kantor kami"]
+        "responses": ["Baiklah, akan disesuaikan dengan UMR setempat. Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     },
     {"tag": "penutup1a",
         "patterns": ["juta"],
-        "responses": ["Baiklah. Berikut merupakan link SOP dari kantor kami"]
+        "responses": ["Baiklah, akan disesuaikan dengan UMR setempat. Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     },
     {"tag": "penutup1",
         "patterns": ["jt"],
-        "responses": ["Baiklah. Berikut merupakan link SOP dari kantor kami"]
+        "responses": ["Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     },
     {"tag": "penutup2",
         "patterns": ["upah minimum kerja"],
-        "responses": ["Baiklah, akan disesuaikan dengan UMR DKI Jakarta. Berikut merupakan link SOP dari kantor kami"]
+        "responses": ["Baiklah, akan disesuaikan dengan UMR setempat. Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     },
     {"tag": "penutup3",
         "patterns": ["rupiah"],
-        "responses": ["Baiklah, berikut merupakan link SOP dari kantor kami"]
+        "responses": ["Baiklah, Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     },
     {"tag": "penutup4",
         "patterns": ["baik, baiklah"],
-        "responses": ["Kami akan mengabari Anda secepatnya"]
+        "responses": ["Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     },
     {"tag": "penutup5",
         "patterns": ["terima kasih"],
-        "responses": ["Kami akan mengabari Anda secepatnya"]
+        "responses": ["Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"]
     }
 ]
 }
