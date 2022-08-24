@@ -3,6 +3,10 @@
         "patterns": ["halo", "hallo"],
         "responses": ["Halo, Mohon untuk deskripsikan diri anda?"]
         },
+        {"tag": "no_answ",
+        "patterns": [""],
+        "responses": ["Halo, Mohon untuk menjawab pertanyaan dengan sesuai."]
+        },
         {"tag": "greeting2",
          "patterns": ["hello", "helo"],
          "responses": ["Hello, Mohon untuk deskripsikan diri anda?"]
