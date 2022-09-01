@@ -47,6 +47,7 @@
     <form class="msger-inputarea">
       <input type="text" class="msger-input" id="textInput" placeholder="Enter your message...">
       <button type="submit" class="msger-send-btn">Send</button>
+      <button onclick="download_csv_file()"> Download Your Answer. </button>  
     </form>
   </section>
   <!-- partial -->
@@ -66,11 +67,14 @@
     const BOT_NAME = "    SMUIT";
     const PERSON_NAME = "You";
 
+    const saveexcel = [];
     msgerForm.addEventListener("submit", event => {
       event.preventDefault();
 
       const msgText = msgerInput.value;
       if (!msgText) return;
+
+      saveexcel.push([msgText]);
 
       appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
       msgerInput.value = "";
@@ -124,6 +128,30 @@
       return `${h.slice(-2)}:${m.slice(-2)}`;
     }
 
+    function download_csv_file() {  
+      var csvFileData = saveexcel;
+      console.log(saveexcel);
+        //define the heading for each row of the data  
+        var csv = 'Answer Texts\n';  
+          
+        //merge the data with CSV  
+        csvFileData.forEach(function(row) {  
+                csv += row.join(',');  
+                csv += "\n";  
+        });  
+      
+        //display the created CSV data on the web browser   
+        document.write(csv);  
+      
+        
+        var hiddenElement = document.createElement('a');  
+        hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+        hiddenElement.target = '';  
+          
+        //provide the name for the CSV file to be downloaded  
+        hiddenElement.download = 'Answers.csv';  
+        hiddenElement.click();  
+    }  
   </script>
 
 </body>
