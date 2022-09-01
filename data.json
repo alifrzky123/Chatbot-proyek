@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "greeting1",
-        "patterns": ["halo", "hallo"],
+        "patterns": ["halo", "hallo","halooooooo"],
         "responses": ["Halo, Mohon untuk deskripsikan diri anda?"]
         },
         {"tag": "no_answ",
@@ -9,31 +9,31 @@
         },
         {"tag": "greeting2",
          "patterns": ["hello", "helo"],
-         "responses": ["Hello, Mohon untuk deskripsikan diri anda?"]
+         "responses": ["Hello, Mohon untuk deskripsikan/perkenalkan diri anda?"]
         },
         {"tag": "greeting3",
          "patterns": ["hai", "hei", "hay", "hey"],
-         "responses": ["Hai, Mohon untuk deskripsikan diri anda?"]
+         "responses": ["Hai, Mohon untuk deskripsikan/perkenalkan diri anda?"]
         },
         {"tag": "greeting4",
          "patterns": ["selamat pagi"],
-         "responses": ["Selamat Pagi, Mohon untuk deskripsikan diri anda?"]
+         "responses": ["Selamat Pagi, Mohon untuk deskripsikan/perkenalkan diri anda?"]
         },
         {"tag": "greeting5",
          "patterns": ["selamat siang"],
-         "responses": ["Selamat Siang, Mohon untuk deskripsikan diri anda?"]
+         "responses": ["Selamat Siang, Mohon untuk deskripsikan/perkenalkan diri anda?"]
         },
         {"tag": "greeting6",
          "patterns": ["selamat sore"],
-         "responses": ["Selamat Sore, Mohon untuk deskripsikan diri anda?"]
+         "responses": ["Selamat Sore, Mohon untuk deskripsikan/perkenalkan diri anda?"]
         },
         {"tag": "greeting_malam",
          "patterns": ["selamat malam", "selamat malem"],
-         "responses": ["Selamat Malam, Mohon untuk deskripsikan diri anda?"]
+         "responses": ["Selamat Malam, Mohon untuk deskripsikan/perkenalkan diri anda?"]
         },
         {"tag": "qna_smuit",
         "patterns": ["smuit", "smuit, apa?"],
-        "responses": ["SMUIT merupakan singkatan dari Smart Recruit. Yang berperan untuk memberikan kamu interview untuk masuk ke perusahaan/n Selanjutnya, Mohon untuk ceritakan tentang diri anda."]
+        "responses": ["SMUIT merupakan singkatan dari Smart Recruit. Yang berperan untuk memberikan kamu interview untuk masuk ke perusahaann, Selanjutnya, Mohon untuk ceritakan tentang diri anda."]
         },
         {"tag": "cerita",
          "patterns": ["Hii", "Hi", "Halo","Hallo","Hai", "Hello", "Hy", "Hyy", "Helo"],
@@ -86,7 +86,7 @@
          "context": [""]
         },
         {"tag": "bolos",
-         "patterns": ["akar"],
+         "patterns": ["akar", "akarnya", "dasarnya", "dasar"],
          "responses": ["Apakah Anda pernah bolos selama sekolah ataupun bekerja sebelumnya?"],
          "context": [""]
         },
@@ -121,23 +121,23 @@
         "context": [""]
         },
         {"tag": "luar_kota",
-        "patterns": ["suka"],
+        "patterns": ["suka", "lingkungan"],
         "responses": ["Apakah Anda bersedia ditempatkan di luar kota?"],
         "context": [""]
         },
         {"tag": "gaji",
-        "patterns": ["kebijakan"],
+        "patterns": ["kebijakan", "bersedia"],
         "responses": ["Berapa gaji Anda sekarang?"],
         "context": [""]
         },
         {"tag": "harapan_gaji",
         "patterns": ["Belum", "pokok"],
-        "responses": ["Baiklah, lalu berapa gaji yang Anda harapkan untuk posisi ini?"],
+        "responses": ["Baiklah, lalu berapa gaji yang Anda harapkan?"],
         "context": [""]
         },
         {"tag": "penurunan",
         "patterns": ["juta"],
-        "responses": ["Baiklah, Baiklah. Terima kasih telah melakukan interview dengan Chatbot SMUIT"],
+        "responses": ["Baiklah, Terima kasih telah melakukan interview dengan Chatbot SMUIT"],
         "context": [""]
         }        
    ]
