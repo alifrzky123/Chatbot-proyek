@@ -81,7 +81,7 @@
          "context": [""]
         },
         {"tag": "masalah",
-         "patterns": ["memeriksa"],
+         "patterns": ["memeriksa", "periksa"],
          "responses": ["Apa yang akan Anda lakukan ketika menghadapi masalah besar dalam pekerjaan?"],
          "context": [""]
         },
@@ -137,7 +137,7 @@
         },
         {"tag": "penurunan",
         "patterns": ["juta"],
-        "responses": ["Baiklah, Terima kasih telah melakukan interview dengan Chatbot SMUIT"],
+        "responses": ["Baiklah, Terima kasih telah melakukan interview dengan Chatbot SMUIT."],
         "context": [""]
         }        
    ]
