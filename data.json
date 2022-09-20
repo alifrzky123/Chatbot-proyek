@@ -2,7 +2,7 @@
         {"tag": "greeting1",
         "patterns": ["halo", "hallo","halooooooo"],
         "responses": ["Halo, Mohon untuk deskripsikan diri anda?"]
-        },
+        },      
         {"tag": "no_answ",
         "patterns": [""],
         "responses": ["Halo, Mohon untuk menjawab pertanyaan dengan sesuai."]
